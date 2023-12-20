@@ -1,12 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
 :root {
   --red: #c2272d;
   --dark-grey: #4f4f4f;
   --grey: #a09e9e;
   --light-grey: #d9d9d9;
+  --light-gray: #d9d9d9;
   --white: #ffffff;
-  background-color: var(--white);
+  --pink: #ff597d;
+  --blue: #97d6e7;
+  --preto: #1a1a1a;
+  background-color: var(--preto);
+  color: var(--pink);
 }
-
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
+}
+/* 
 #1a1a1a;
 #262626;
 #97d6e7;
@@ -17,4 +33,4 @@
 #FB1809;
 
 font-family: 'Sansita Swashed', cursive;
-font-family: 'Mukta', sans-serif;
+font-family: 'Mukta', sans-serif; */
