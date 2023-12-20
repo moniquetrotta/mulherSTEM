@@ -144,6 +144,7 @@ p {
 .btn:hover::before {
   opacity: 1;
 }
+
 .btn-secundary {
   display: inline-block;
   border: 2px solid var(--pink);
@@ -170,57 +171,4 @@ p {
 }
 .btn-secundary:hover::after {
   width: 102%;
-}
-/* Estilos para telas pequenas (celulares pequenos portrait) */
-@media only screen and (max-width: 414px) {
-  h1 {
-    font-size: 36px;
-    line-height: 120%;
-  }
-  p {
-    margin-top: -10px;
-  }
-  .item-3 {
-    display: flex;
-    align-items: center;
-  }
-  .item-3 a {
-    /* margin: 12px auto; */
-    margin-left: 10px;
-    padding: 10px 25px;
-    border-radius: 3px;
-    transform: skewX(-10deg);
-    transition: 0.7s ease;
-    text-transform: uppercase;
-    background: var(--pink);
-    color: black;
-    position: relative;
-  }
- 
-
-/* Estilos para celulares maiores (landscape) */
- @media only screen and (min-width: 481px) and (max-width: 767px) {
-  
-} 
-
-/* Estilos para tablets */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* .btn {
-    border: 1px solid red;
-    display: inline-block;
-    margin-left: 50px;
-    padding: 12px 32px;
-    border-radius: 3px;
-    transform: skewX(-10deg);
-    transition: 0.7s ease;
-    text-transform: uppercase;
-    background: var(--pink);
-    color: black;
-    position: relative;
-  } */
-}
-
-/* Estilos para desktops */
-@media only screen and (min-width: 1024px) {
-  /* Adicione seus estilos para desktops aqui */
 }
